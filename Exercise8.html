@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html>
+<body>
+<div>
+     <a href="index.html">Home</a>
+     <a href="Exercise4b.html">Exercise4b</a>
+     <a href="Exercise5a.html">Exercise5a</a>
+     <a href="Exercise5b.html">Exercise5b</a>
+	 <a href="Exercise5c.html">Exercise5c</a>
+	 <a href="Exercise6a.html">Exercise6a</a>
+	 <a href="Exercise7a.html">Exercise7a</a>
+	 <a href="Exercise8.html">Exercise8</a>
+    </div>  
+<head>
+<title> Registration Form Jn Salonga </title>
+</head>
+
+
+<img src="images/ubimage.png" alt="UB" style="width:350px;height:110px;">
+
+
+
+<h2><center>Student Profile</center></h2>
+<hr>
+        <br>
+        <hr>
+        <br>
+<form>
+		<label for="studentnum">Student Number&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+  <input type="text" id="studentnum" name="studentnum" pattern=" [A-Za-z]{5}  "maxlength= "12" >
+
+	<br>
+	<br>
+		<label for="lname">Student Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+				<input type="text" id="lname" name="lname" placeholder="Lastname">,&nbsp;
+				<input type="text" id="fname" name="fname" placeholder="Firstname">&nbsp;
+				<input type="text" id="mname" name="mname" placeholder="M.I" maxlength= "1">
+	<br>
+	<br>
+		
+
+
+<form action="/action_page.php">
+		<label for="course">Course/Program&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+			<select id="course" name="course">
+					<option value="(BSCS)">Bachelor of Science in Computer Science (BSCS)</option>
+					<option value="(BSIT)" selected>Bachelor of Science in Information Technology (BSIT)</option>
+					<option value="(BSCE)">Bachelor of Science in Computer Engeenering (BSCE)</option>
+
+	
+ </select>
+
+	<br>
+	<br>
+	
+		<label for="mobilenum">Mobile No&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		&nbsp;&nbsp;:</label>
+  <input type="text" id="mobilenum" name="mobilenum" pattern=" [A-Za-z]{3}  "maxlength= "11" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<label for="email">Email Address: &nbsp;</label>
+				<input type="text" id="email" name="email">
+	<br>
+	<br>
+		
+		
+		<label for="residentialadd">Residential Address&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+  <textarea rows="3" cols="50" name="comment" form="usrform"></textarea>&nbsp;&nbsp;&nbsp;&nbsp;
+		<label for="residentialadd">Permanent Address:&nbsp;&nbsp;</label>
+  <textarea rows="3" cols="50" name="comment" form="usrform"></textarea>
+  
+  
+  <br>
+  <br>
+  
+	
+	
+<form action="/action_page.php">
+		<label for="per region">(Permanent) Region&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+			<select id="per region" name="region">
+				<option value="region" selected>-Region-</option>
+				<option> National Capital Region (NCR)</option>
+				<option> Cordillera Administrative Region (CAR)</option>
+				<option> Ilocos Region (Region 1)</option>
+				<option> Cagayan Valley (Region 2)</option>
+				<option> Central Luzon (Region 3)</option>
+				<option> Calabarzon (Region 4A)</option>
+				<option> Mimaropa (Region 4B)</option>
+				<option> Bicol Region (Region 5)</option>
+				<option> Western Visayas (Region 6)</option>
+				<option> Central Visayas (Region 7)</option>
+				<option> Eastern Visayas (Region 8)</option>
+				<option> Zamboanga Peninsula (Region 9)</option>
+				<option> Northern Mindanao (Region 10)</option>
+				<option> Davao Region (Region 11)</option>
+				<option> Soccksargen (Region 12)</option>
+				<option> CARAGA REGION (Region 13)</option>
+				<option> Autonomous Region of Muslim Mindanao (ARMM)</option>
+	
+</select>
+
+
+  <br>
+  <br>
+
+
+<form action="/action_page.php">
+		<label for="province">(Permanent) Province&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+			<select id="province" name="province">
+			<option value="region" selected>-Province-</option>
+		<optgroup label="CAR">
+		
+				<option> Abra</option>
+				<option> Apayao</option>
+				<option> Benguet</option>
+				<option> Ifugao</option>
+				<option> Kalinga</option>
+				<option> Mountain Province</option>
+		</optgroup>
+		
+		
+		
+		
+		<optgroup label="Region 1">
+				<option> Ilocos Norte</option>
+				<option> Ilocos Sur</option>
+				<option> La Union</option>
+				<option> Pangasinan</option>
+		</optgroup>
+		
+		
+		
+		
+		
+		<optgroup label="Region 2">
+				<option> Batanes</option>
+				<option> Cagayan</option>
+				<option> Isabela</option>
+				<option> Nueva Vizcaya</option>
+				<option> Quirino</option>
+		</optgroup>
+		
+		
+		<optgroup label="Region 3">	
+		
+				<option> Aurora</option>
+				<option> Bataan</option>
+				<option> Bulacan</option>
+				<option> Nueva Ecija</option>
+				<option> Tarlac</option>
+				<option> Pampanga</option>
+				<option> Zambales</option>
+				
+				
+				
+		</optgroup>	
+				
+				
+		<optgroup label="Region 4A">	
+		
+				<option> Batangas</option>
+				<option> Cavite</option>
+				<option> Laguna</option>
+				<option> Quezon</option>
+				<option> Rizal</option>
+				
+		</optgroup>		
+				
+				
+				
+		<optgroup label="Region 4B">	
+		
+				<option>Marinduque </option>
+				<option> Occidental Mindoro</option>
+				<option> Oriental Mindoro</option>
+				<option> Palawan</option>
+				<option> Romblon</option>
+				
+		</optgroup>			
+				
+		<optgroup label="Region 5">		
+				<option> Albay</option>
+				<option> Camarines Norte</option>
+				<option> Camarines Sur</option>
+				<option> Catanduanes</option>
+				<option> Masbate</option>
+				<option> Sorsogon</option>
+				
+		</optgroup>	
+		
+		
+		<optgroup label="Region 6">
+
+
+				<option> Aklan</option>
+				<option> Antique</option>
+				<option> Capiz</option>
+				<option> Guimaras</option>
+				<option> Iloilo</option>
+				<option> Negros Occidental</option>
+				
+				
+		</optgroup>		
+				
+				
+		<optgroup label="Region 7">		
+				
+				<option> Bohol</option>
+				<option> Cebu</option>
+				<option> Negros Oriental</option>
+				<option> Siquijor</option>
+				
+		</optgroup>			
+				
+				
+		<optgroup label="Region 8">
+		
+				<option> Biliran</option>
+				<option> Eastern Samar</option>
+				<option> Leyte</option>
+				<option> Northern Samar</option>
+				<option> Samar</option>
+				<option> Southern Leyte</option>
+				
+		</optgroup>			
+				
+				
+				
+		<optgroup label="Region 9">
+		
+				<option> Zamboanga del Norte</option>
+				<option> Zamboanga del Sur</option>
+				<option> Zamboanga Sibugay</option>
+				
+		</optgroup>
+
+		
+		<optgroup label="Region 10">	
+		
+				<option> Bukidnon</option>
+				<option> Camiguin</option>
+				<option> Lanao del Norte</option>
+				<option> Misamis Occidental</option>
+				<option> Misamis Oriental</option>
+				
+		</optgroup>		
+				
+		<optgroup label="Region 11">	
+		
+				<option> Davao de Oro</option>
+				<option> Davao del Norte</option>
+				<option> Davao del Sur</option>
+				<option> Davao Occidental</option>
+				<option> Davao Oriental</option>
+				
+		</optgroup>	
+
+		
+		<optgroup label="Region 12">	
+		
+				<option> Cotabato</option>
+				<option> Sarangani</option>
+				<option> South Cotabato</option>
+				<option> Sultan Kudarat</option>
+		
+		</optgroup>
+
+
+		<optgroup label="Region 13">
+				
+				
+			
+				<option> Agusan del Norte</option>
+				<option> Agusan del Sur</option>
+				<option> Dinagat Islands</option>
+				<option> Surigao del Norte</option>
+				<option> Surigao del Sur</option>
+				
+		</optgroup>		
+				
+				
+		<optgroup label="BARMM">		
+				<option> Basilan</option>
+				<option> Lanao del Sur</option>
+				<option> Maguindanao</option>
+				<option> Sulu</option>
+				<option> Tawi-Tawi</option>
+				
+		</optgroup>
+	<br>
+	<br>
+	
+	</select>
+	
+	
+	
+	<br>
+	<br>
+			<label for="lname">(Permanent) Municipality&nbsp;:</label>
+				<input type="text" id="lname" name="lname" placeholder="-Municipality-">&nbsp;
+	<br>
+	<br>
+	
+			<label for="telnum">(Permanent) Tel. No.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+  <input type="text" id="telnum" name="telnum" pattern=" [A-Za-z]{3}  "maxlength= "11" >
+	<br>
+	<br>
+
+
+	<label for="birthdate">Date of birth&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+  <select name="birthdate" id="birthdate">
+  <option value="birthdate">MM</option>
+  <option value="birthdate">January</option>
+  <option value="birthdate">February</option>
+  <option value="birthdate">March</option>
+  <option value="birthdate">April</option>
+  <option value="birthdate">May</option>
+  <option value="birthdate">June</option>
+  <option value="birthdate">July</option>
+  <option value="birthdate">August</option>
+  <option value="birthdate">September</option>
+  <option value="birthdate">October</option>
+  <option value="birthdate">November</option>
+  <option value="birthdate">December</option>
+  <select>
+  <select name="birthdate" id="birthdate">
+  <option value="birthdate">DD</option>
+  <option value="birthdate">01</option>
+  <option value="birthdate">02</option>
+  <option value="birthdate">03</option>
+  <option value="birthdate">04</option>
+  <option value="birthdate">04</option>
+  <option value="birthdate">05</option>
+  <option value="birthdate">06</option>
+  <option value="birthdate">07</option>
+  <option value="birthdate">08</option>
+  <option value="birthdate">09</option>
+  <option value="birthdate">10</option>
+  <option value="birthdate">11</option>
+  <option value="birthdate">12</option>
+  <option value="birthdate">13</option>
+  <option value="birthdate">14</option>
+  <option value="birthdate">15</option>
+  <option value="birthdate">16</option>
+  <option value="birthdate">17</option>
+  <option value="birthdate">18</option>
+  <option value="birthdate">19</option>
+  <option value="birthdate">20</option>
+  <option value="birthdate">21</option>
+  <option value="birthdate">22</option>
+  <option value="birthdate">23</option>
+  <option value="birthdate">24</option>
+  <option value="birthdate">25</option>
+  <option value="birthdate">26</option>
+  <option value="birthdate">27</option>
+  <option value="birthdate">28</option>
+  <option value="birthdate">29</option>
+  <option value="birthdate">30</option>
+  <option value="birthdate">31</option>
+  <select>
+  <input type="text" id="year" name="year" placeholder="year">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <label for="placeofbirth">Place of Birth:</label>
+  <input type="text" id="placeofbirth" name="placeofbirth">
+  <br>
+  <br>
+  
+  <label for="Gender:">Gender&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <label for="religion">Religion:</label>
+  <input type="text" id="religion" name="religion">
+  <br><br>
+  <label for="nationality">Nationality&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;:</label>
+  <input type="text" id="nationality" name="Nationality">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <label for="Civil Status">Civil Status:</label>
+  <select name="civilstatus" id="civilstatus">
+  <option value="civilstatus"></option>
+  <option value="civilstatus">Single</option>
+  <option value="civilstatus">Married</option>
+  <option value="civilstatus">Divorced</option>
+
+
+
+
+</form>
+
+	
+
+</body>
+</html>
+
+
+
+
